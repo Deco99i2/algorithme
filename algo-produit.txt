@@ -1,0 +1,9 @@
+algorithme				produit;
+var:
+a,b,p: entier;
+debut
+	ecrire "entrez deux nombres entiers";
+	lire a,b;
+	p <-- a*b
+	ecrire"le produit est" p;
+fin
