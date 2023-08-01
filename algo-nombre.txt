@@ -1,0 +1,14 @@
+algorithme 						nombre;
+var :
+n : entier;
+debut
+	ecrire "entrez un nombre";
+	lire n;
+	si (n>20) alors:
+		ecrire "plus petit";
+	si non si (n<10) alors:
+		ecrire "plus grand";
+	si non
+		ecrire " bravo ! le nombre compris entre 10 et 20";
+	fsi
+fin
