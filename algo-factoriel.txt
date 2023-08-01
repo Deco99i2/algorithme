@@ -1,0 +1,18 @@
+algorithme					factoriel;
+var:
+n,f: entier;
+debut
+	ecrire"entrez un nombre";
+	lire n;
+	si (n=0) alors:
+		ecrire "le factoriel de n est" 1;
+	sinonsi (n<0) alors:
+		ecrire "le factoriel de n n'existe pas";
+	sinon
+		m <-- n-1;
+		reperter
+			f <-- n*m;
+			m <-- m-1;
+		jusqu'a (m=1)
+	fsi
+fin
