@@ -1,0 +1,19 @@
+algorithme				suppression;
+var:
+tab(1:10):chaine de caractere;
+nom : chaine de caractere;
+position,i :entier;
+debut
+	ecrire "entrez le nom asupprier";
+	lire nom;
+	trouver <-- faux
+	pour i--> 1 a 10 pas de 1:
+		si (nom= tab[i]) alors:
+			position <-- tab[i];
+		fsi
+	fpour
+	pour i--> position a 9 pas de 1:
+		tab[i] <-- tab[i+1];
+	fpour
+		tab[10]= nill;
+fin
