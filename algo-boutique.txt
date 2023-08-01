@@ -1,0 +1,16 @@
+algorithme				boutique;
+var:
+ht,rdt,tva,tt:reels;
+debut
+	ecrire "entrez le prix";
+	lire ht;
+		tva <-- ht*0,2;
+	si (ht <= 200) alors:
+		tt <-- ht + tva;
+		ecrire "le montant est "tt;
+	sinon
+		rdt <-- ht*0,15;
+		tt <-- (ht + tva) - rdt;
+		ecrire "le montant est"tt;
+	fsi
+fin
