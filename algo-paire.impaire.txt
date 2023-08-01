@@ -1,0 +1,12 @@
+algorithme				paire-impaire;
+var:
+n:entier;
+debut
+	ecrire"entrez un nombre";
+	lire n;
+	si (n div 2 = 0) alors;
+		ecrire "le nombre entrer est paire";
+	sinon
+		ecrire "le nombre entrer est impaire"
+	fsi
+fin
