@@ -1,0 +1,13 @@
+algorithme				tri-decroissant;
+var:
+tab(1:5):entier;
+i:entier;
+debut
+	pour i--> 1 a 5 pas de 1:
+		si (tab[i]< tab[i+1]) alors:
+			tmp <-- tab[i];
+			tab[i] <-- tab[i+1];
+			tab[i+1] <-- tmp;
+		fsi
+	fpour
+fin
