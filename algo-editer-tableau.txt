@@ -1,0 +1,9 @@
+algorithme			tableau;
+var:
+tab(1:5): entier;
+i:entier;
+debut
+	pour i --> 1 a5 pas de 1:
+ 	ecrire tab[i];
+	fpour
+fin
