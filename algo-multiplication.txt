@@ -1,0 +1,10 @@
+algorithme		multiplication;
+var:
+i,j:entier;
+debut
+	ecrire"entrz un nombre";
+	lire j;
+	pour i--> 0 a 10 pas de 1:
+		ecrire j"*"i "=" j*i ;
+	fpour
+fin
